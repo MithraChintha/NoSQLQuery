@@ -1,0 +1,180 @@
+rs0> db.factory_data.find({"_id" : "15SM35260139"}, {"history.node_list.dimm_list" : 1, "history.node_list.slot_id": 1}).pretty()
+{
+    "_id" : "15SM35260139",
+    "history" : [
+        {
+            "node_list" : [
+                {
+                    "dimm_list" : [
+                        {
+                            "serial_number" : "MEMU0001524560105127",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105130",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105129",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105128",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105131",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105132",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105133",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105135",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105134",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105141",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105140",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105139",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105138",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105136",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105117",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105137",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        }
+                    ],
+                    "slot_id" : "NODE A"
+                },
+                {
+                    "dimm_list" : [
+                        {
+                            "serial_number" : "MEMU0001524560105077",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105065",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105081",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105080",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105079",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105078",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105082",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105083",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105095",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105096",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105085",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105086",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105087",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105084",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105088",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        },
+                        {
+                            "serial_number" : "MEMU0001524560105089",
+                            "memory_manufacturer_part_number" : "unknown",
+                            "description" : "16GB DDR4-2133 2Rx4 LP ECC REG DIMM"
+                        }
+                    ],
+                    "slot_id" : "NODE B"
+                }
+            ]
+        }
+    ]
+}
