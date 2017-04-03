@@ -1,0 +1,10 @@
+db.factoryData.aggregate([{$unwind:"$history"},
+                             {$unwind:"$history.node_list"},
+                             {$unwind:"$history.node_list.dimm_list"},
+                             {
+                             $group:{
+                              _id:{"memory_manufacturer_part_number": "$history.node_list.dimm_list.memory_manufacturer_part_number",
+                              slot_id:"$history.node_list.slot_id"},
+                              count:{$sum:1}}
+                             } 
+                             ])
